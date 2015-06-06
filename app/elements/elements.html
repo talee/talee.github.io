@@ -27,9 +27,24 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <!-- Add your elements here -->
 <link rel="import" href="app-theme.html">
-<link rel="import" href="my-list/my-list.html">
-<link rel="import" href="my-greeting/my-greeting.html">
 
 <!-- Configure your routes here -->
+<!--
 <link rel="import" href="routing.html">
-
+-->
+<style is="custom-style">
+  #main {
+    height: inherit;
+    width: inherit;
+    @apply(--layout);
+    @apply(--layout-center-center);
+  }
+  #name {
+    font-weight: 300;
+    @apply(--layout);
+  }
+  #github {
+    margin-bottom: 20px;
+    @apply(--layout-self-center);
+  }
+</style>

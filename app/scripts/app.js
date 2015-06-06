@@ -22,7 +22,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   // Listen for template bound event to know when bindings
   // have resolved and content has been stamped to the page
   app.addEventListener('template-bound', function() {
-    console.log('Our app is ready to rock!');
   });
 
   // See https://github.com/Polymer/polymer/issues/1381
@@ -30,8 +29,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     document.querySelector('body').removeAttribute('unresolved');
 
     // Ensure the drawer is hidden on desktop/tablet
-    var drawerPanel = document.querySelector('#paperDrawerPanel');
-    drawerPanel.forceNarrow = true;
+    //var drawerPanel = document.querySelector('#paperDrawerPanel');
+    //drawerPanel.forceNarrow = true;
   });
 
 })(document);
