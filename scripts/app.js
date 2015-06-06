@@ -1,0 +1,1 @@
+!function(e){"use strict";var t=e.querySelector("#app");t.displayInstalledToast=function(){e.querySelector("#caching-complete").show()},t.addEventListener("template-bound",function(){}),window.addEventListener("WebComponentsReady",function(){e.querySelector("body").removeAttribute("unresolved")})}(document);
